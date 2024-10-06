@@ -1,6 +1,9 @@
 # Agenda
 
+- [Agenda](#agenda)
 - [Version Control Systems (VCS)](#version-control-systems-vcs)
+	- [Centralized Version Control Systems](#centralized-version-control-systems)
+	- [Distributed Version Control Systems](#distributed-version-control-systems)
 - [What is Git?](#what-is-git)
 - [How Git Works](#how-git-works)
 - [Git Setup \& Important Git commands](#git-setup--important-git-commands)
