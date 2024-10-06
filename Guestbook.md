@@ -14,16 +14,8 @@ Welcome to the Guestbook! Add your name below and open a pull request.
 1. Antony Zaky
 	1. Major: Computer Engineering
 	2. Favourite Language: C
-<<<<<<< HEAD
-2. Evan Mack
-	1. Major: Computer Engineering
-	2. Favourite Language: Python
-=======
 2. Cedric Caparas
 	1. Major: Computer Engineering
-<<<<<<< HEAD
 	2. Favorite Language: Python
->>>>>>> d79ef7b (Added myself to Guestbook)
-=======
-	2. Favorite Language: Java
->>>>>>> 2768d8a (Updated Language)
+
+
