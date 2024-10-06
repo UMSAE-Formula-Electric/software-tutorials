@@ -26,6 +26,10 @@ Welcome to the Guestbook! Add your name below and open a pull request.
 5. Cedric Caparas
 	1. Major: Computer Engineering
 	2. Favourite Language: Python
-6. Jasper Pabalan
+6. Martins Eneje 
+	1. Major: Computer Engineering
+	2. Favorite Language: Python
+	3. Best color: light shades of blue  
+7. Jasper Pabalan
 	1. Major: Computer Engineering
 	2. Favourite Language: Python
