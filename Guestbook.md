@@ -13,5 +13,5 @@ Welcome to the Guestbook! Add your name below and open a pull request.
 # Guest List
 1. Antony Zaky
 	1. Major: Computer Engineering
-	2. Favourite Language: C
+	2. Favourite Language: Embedded C
 2. 
