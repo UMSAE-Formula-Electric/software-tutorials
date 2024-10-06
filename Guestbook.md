@@ -26,3 +26,6 @@ Welcome to the Guestbook! Add your name below and open a pull request.
 5. Cedric Caparas
 	1. Major: Computer Engineering
 	2. Favourite Language: Python
+6. Jasper Pabalan
+	1. Major: Computer Engineering
+	2. Favourite Language: Python
