@@ -16,4 +16,4 @@ Welcome to the Guestbook! Add your name below and open a pull request.
 	2. Favourite Language: C
 2. Cedric Caparas
 	1. Major: Computer Engineering
-	2. Favorite Language: Python
+	2. Favorite Language: Java
