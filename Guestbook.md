@@ -14,22 +14,25 @@ Welcome to the Guestbook! Add your name below and open a pull request.
 1. Antony Zaky
 	1. Major: Computer Engineering
 	2. Favourite Language: C
-2. Evan Mack
+2. Caleb Pollreis
+	1. Major: Computer Engineering
+	2. Favourite Language: C
+3. Evan Mack
 	1. Major: Computer Engineering
 	2. Favourite Language: Python
-3. Jun Choi
+4. Jun Choi
     1. Major: Computer Engineering
     2. Facourite Language: Python
-4. Thomas A
+5. Thomas A
 	1. Major: CompSci
 	2. Favourite Language: Python
-5. Cedric Caparas
+6. Cedric Caparas
 	1. Major: Computer Engineering
 	2. Favourite Language: Python
-6. Martins Eneje 
+7. Martins Eneje 
 	1. Major: Computer Engineering
 	2. Favorite Language: Python
 	3. Best color: light shades of blue  
-7. Jasper Pabalan
+8. Jasper Pabalan
 	1. Major: Computer Engineering
 	2. Favourite Language: Python
