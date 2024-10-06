@@ -17,3 +17,6 @@ Welcome to the Guestbook! Add your name below and open a pull request.
 2. Evan Mack
 	1. Major: Computer Engineering
 	2. Favourite Language: Python
+3. Jun Choi
+    1. Major: Computer Engineering
+    2. Facourite Language: Python
