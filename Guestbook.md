@@ -30,3 +30,6 @@ Welcome to the Guestbook! Add your name below and open a pull request.
 	1. Major: Computer Engineering
 	2. Favorite Language: Python
 	3. Best color: light shades of blue  
+7. Jasper Pabalan
+	1. Major: Computer Engineering
+	2. Favourite Language: Python
