@@ -36,3 +36,8 @@ Welcome to the Guestbook! Add your name below and open a pull request.
 8. Jasper Pabalan
 	1. Major: Computer Engineering
 	2. Favourite Language: Python
+9. Kameron Toews
+	1. Major: Computer Science
+	2. favourite Language: java
+	3. favourite sport: Volleyball
+
