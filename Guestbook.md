@@ -23,3 +23,6 @@ Welcome to the Guestbook! Add your name below and open a pull request.
 4. Thomas A
 	1. Major: CompSci
 	2. Favourite Language: Python
+5. Cedric Caparas
+	1. Major: Computer Engineering
+	2. Favourite Language: Python
