@@ -20,3 +20,6 @@ Welcome to the Guestbook! Add your name below and open a pull request.
 3. Jun Choi
     1. Major: Computer Engineering
     2. Facourite Language: Python
+4. Thomas A
+	1. Major: CompSci
+	2. Favourite Language: Python
