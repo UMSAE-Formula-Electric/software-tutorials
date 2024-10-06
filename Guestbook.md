@@ -21,5 +21,9 @@ Welcome to the Guestbook! Add your name below and open a pull request.
 =======
 2. Jun Choi
     1. Major: Computer Engineering
+<<<<<<< HEAD
     2. Facourite Language: Python
 >>>>>>> d4f540b (added my name to the guestlist)
+=======
+    2. Facourite Language: Java
+>>>>>>> 891d995 (updated java)
