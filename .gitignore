@@ -1,1 +1,28 @@
 .obsidian
+
+# build artifacts
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.map
+*.lst
+*.bin
+*.hex
+
+# IDE
+.vscode/
+.settings/
+*.launch
+*.log
+
+# CubeMX / generated cache
+*.ioc-local
+# keep the .ioc file itself (do NOT ignore)
+# STM32CubeIDE metadata (safe to track project files, ignore user prefs)
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
