@@ -194,10 +194,6 @@ in real time. This includes:
 
 </div>
 
-We will do this as a group because we will need to download a specific
-version (the same version that our GitHub repositories run on) for both
-CubeMx and CubeIDE.
-
 <div id="CubeMx">
 
 ### CubeMx
@@ -252,30 +248,6 @@ Tutorials to GitHub](#GitHub Tutorial)** section. A section lead or the
 SSO will review a few pull requests (PRs) from each new member. The goal
 is to teach you how to submit PRs and give you guys feedback on your
 work :)
-
-<div id="Tutorial 1 Label">
-
-# Tutorial 1: LED Blink
-
-</div>
-
-<div id="Tutorial 2 Label">
-
-# Tutorial 2: HAL USART
-
-</div>
-
-<div id="Tutorial 3 Label">
-
-# Tutorial 3: HAL UART Interrupts
-
-</div>
-
-<div id="Tutorial 4 Label">
-
-# Tutorial 4: HAL FreeRTOS
-
-</div>
 
 <div id="GitHub Tutorial">
 
