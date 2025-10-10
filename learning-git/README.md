@@ -22,7 +22,7 @@
 	- Maintains history of changes, allowing developers to revert to previous versions if needed.
 ## Centralized Version Control Systems
 
-![image](../media/CVCS.png)
+![CVCS diagram](../Media/CVCS.png)
 - **Single Central Repository:** All users work with a single central repository, typically hosted on a server.
 - **Commit and Update:** Developers commit their changes to this central repository and update their local copies to stay in sync with others.
 - **Pro:** 
@@ -31,7 +31,7 @@
 	- Single Point of Failure - If the central server goes down or becomes inaccessible, no one can commit changes or access the latest version of the code.
 ## Distributed Version Control Systems
 
-![image](../media/DVCS.png)
+![DVCS diagram](../Media/DVCS.png)
 - **Local Repositories:** Each developer has a complete copy of the repository, including the full history of changes.
 - **Peer-to-Peer:** Changes are shared between repositories, allowing for more flexible workflows and offline work.
 - **Pro:** 
