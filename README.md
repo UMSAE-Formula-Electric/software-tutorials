@@ -37,7 +37,7 @@ Below is the file structure of this repository, with some quick links to importa
 ### Important Info (quick links):
 - [Learning Git](./learning-git/README.md)
 - [Learning C](./learning-c/README.md)
-- [Team Info](./learning-team-info/README.md)
+- [Team Info](./team-info/README.md)
 
 <div id="Repository Structure">
 
