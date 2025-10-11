@@ -134,7 +134,7 @@ git push -u origin tutorial-01
 
 **NOTE:** For each tutorial you do, **please make a new branch on your fork!** This will give you lots of practice with git!
 
-5. We'll come back to this in the [Submitting your work!](#submitting-your-work) section!
+6. We'll come back to this in the [Submitting your work!](#submitting-your-work) section!
 
 <div id="Downloading CubeMx and CubeIDE">
 
@@ -228,10 +228,9 @@ git add .
 git commit -m "Added tutorial 01 blinky LED project"
 ```
 
-3. Open a Pull Request
+3. Open a Pull Request (PR)
 
-- Go to your fork on GitHub, and click `Compare & pull request`:
-
+- Go to your fork on GitHub, and click `Compare & pull request`. Here are some example settings for your PR that you should follow:
 ```
 Base repo: UMSAE-Formula-Electric/software-tutorials
 Base branch: main
@@ -240,8 +239,8 @@ Head branch: tutorial-01
 Title: tutorial-01: blinky LED — <Your Name>
 ```
 
-Submit the PR and wait for review! ❤️
+- Submit the PR and wait for review! ❤️
 
-10. Wait for a Review!
+4. Wait for a Review!
 
 - We will review and comment on your work! Once complete, we will close your PR without merging, so future members can attempt the tutorial independently.
