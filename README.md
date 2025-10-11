@@ -24,9 +24,9 @@ Vehicle Control Software Lead (VCS), Data Acquisition Lead (DAQ), or
 Software Testing Lead (SWT) for help, and we’ll guide you in the right
 direction!
 
-<div id="Getting Started">
+<div id="Helpful Resources to Get Started!">
 
-## Getting Started!
+## Helpful Resources to Get Started!
 
 </div>
 
@@ -93,9 +93,16 @@ software-tutorials/
 └─ README.md
 ```
 
+
+<div id="Getting Started!">
+
+## Getting Started!
+
+</div>
+
 <div id="Downloading CubeMx and CubeIDE">
 
-## Downloading CubeMx and CubeIDE
+### Downloading CubeMx and CubeIDE:
 
 </div>
 
@@ -165,7 +172,12 @@ You can find the tutorials in the `tutorials` folder, but here are links to the 
 
 </div>
 
+<div id = "Pushing Tutorials to Github">
 
 ### Pushing Tutorials to GitHub
+
+</div>
+
+After you submit each tutorial please refer back to these instructions
 
 - ADD THIS AND TEST INSTRUCTIONS YOURSELF
