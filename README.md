@@ -4,6 +4,8 @@
 
 </div>
 
+![title pic](./Media/ePBR_Logo.png)
+
 
 <div id="Introduction Label">
 
@@ -91,7 +93,6 @@ software-tutorials/
 └─ README.md
 ```
 
-
 <div id="Downloading CubeMx and CubeIDE">
 
 ## Downloading CubeMx and CubeIDE
@@ -136,7 +137,7 @@ and make a mass order of boards.
 
 <div id="Tutorial Projects Label">
 
-# Tutorial Projects
+## Tutorial Projects
 
 </div>
 
@@ -151,10 +152,20 @@ correctly, or if they have any tips on good practice/optimization.
 A section lead or the SSO will review a few pull requests (PRs) from each new member. The goal
 is to teach you how to submit PRs and give you guys feedback on your work :)
 
+You can find the tutorials in the `tutorials` folder, but here are links to the instructions for you!
+
+- [Tutorial 1](./tutorials/01-blinky-led/README.md)
+- [Tutorial 2](./tutorials/02-usart/README.md)
+- [Tutorial 3](./tutorials/03-uart-interrupts/README.md)
+- [Tutorial 4](./tutorials/04-freertos/README.md)
+
 <div id="GitHub Tutorial">
 
-# Uploading Tutorials to GitHub!
+## Submitting your work!
 
 </div>
+
+
+### Pushing Tutorials to GitHub
 
 - ADD THIS AND TEST INSTRUCTIONS YOURSELF

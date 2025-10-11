@@ -104,7 +104,7 @@ where we write the code to toggle the LED on and off
 
 - Inside the braces of the infinite while loop and above the comment
     /\* USER CODE END WHILE \*/ we are going to use two HAL (Hardware
-    Abstraction Layer) functions: HAL_GPIO_TogglePin() and HAL_Delay()
+    Abstraction Layer) functions: `HAL_GPIO_TogglePin()` and `HAL_Delay()`
 
 - HAL_GPIO_TogglePin takes in two parameters, the port and pin of the
     microcontroller used to turn the LED on and off. This is

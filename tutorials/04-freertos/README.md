@@ -9,50 +9,51 @@
 3.  Now enable UART (same as last tutorial) but with a baud rate of
     115200 Bits/s
 
-    1.  No need to enable the global interrupt for this tutorial
+    - No need to enable the global interrupt for this tutorial
 
 4.  Now, scroll down to the "Middleware and Software Packs" drop down
     menu and click on "FreeRTOS"
 
-    1.  Select "CMSIS_V2" on the "Interface" drop down menu  
-        <img src="FreeRTOS 1.png" alt="image" />
+    - Select "CMSIS_V2" on the "Interface" drop down menu
+<br><br>
+![1](../../Media/FreeRTOS%201.png)
 
 5.  Go to the "Tasks and Queues" tab and click the "Add" button
 
-    1.  Here is where we will make two FreeRTOS tasks to add (append),
+    - Here is where we will make two FreeRTOS tasks to add (append),
         and remove from a queue
 
 6.  Here are the settings you need to change for the first task:
 
-    1.  Call the first task "queueAppendTask"
+    - Call the first task "queueAppendTask"
 
-    2.  Set it’s priority to "osPriorityLow"
+    - Set it’s priority to "osPriorityLow"
 
-    3.  Leave Stack Size (Words) as 128
+    - Leave Stack Size (Words) as 128
 
-    4.  Change the name of the entry function to "StartQueueAppendTask"
+    - Change the name of the entry function to "StartQueueAppendTask"
 
-    5.  Leave Code Generation Option as "Default"
+    - Leave Code Generation Option as "Default"
 
-    6.  Leave Parameter as "NULL"
+    - Leave Parameter as "NULL"
 
-    7.  Leave Allocation as "Dynamic"
+    - Leave Allocation as "Dynamic"
 
 7.  Now, create another task according to these settings:
 
-    1.  Call the first task "queueRemoveTask"
+    - Call the first task "queueRemoveTask"
 
-    2.  Set it’s priority to "osPriorityLow"
+    - Set it’s priority to "osPriorityLow"
 
-    3.  Leave Stack Size (Words) as 128
+    - Leave Stack Size (Words) as 128
 
-    4.  Change the name of the entry function to "StartQueueRemoveTask"
+    - Change the name of the entry function to "StartQueueRemoveTask"
 
-    5.  Leave Code Generation Option as "Default"
+    - Leave Code Generation Option as "Default"
 
-    6.  Leave Parameter as "NULL"
+    - Leave Parameter as "NULL"
 
-    7.  Leave Allocation as "Dynamic"
+    - Leave Allocation as "Dynamic"
 
 8.  Next, we want to make the queue that these two tasks will use to
     send and receive messages
@@ -61,13 +62,13 @@
 
 10. Here are the queue settings:
 
-    1.  Call the queue "coolQueue"
+    - Call the queue "coolQueue"
 
-    2.  Set the queue size to 8
+    - Set the queue size to 8
 
-    3.  Set the item size to "uint16_t"
+    - Set the item size to "uint16_t"
 
-    4.  Set the allocation to "Dynamic"
+    - Set the allocation to "Dynamic"
 
 11. Now, go to the "Project manager" tab and call the project
     "HAL_FreeRTOS_Tutorial", set the project file location and set the
@@ -78,7 +79,7 @@
 13. The functions you will need to use in this tutorial come from the
     CMSIS-RTOS2 (CMSIS_V2) version of FreeRTOS
 
-    1.  You can find these functions in the "Middlewares" folder of our
+    - You can find these functions in the "Middlewares" folder of our
         project. CubeMX automatically generated these files when we
         enabled the CMSIS_V2 FreeRTOS functionality
 
@@ -87,14 +88,14 @@
     Functions](https://www.keil.com/pack/doc/CMSIS_Dev/RTOS2/html/group__CMSIS__RTOS__Message.html)
 
 15. In main.c, we want to add (append) data to the queue using the
-    StartQueueAppendTask() and remove data from the queue using
-    StartQueueRemoveTask().
+    `StartQueueAppendTask()` and remove data from the queue using
+    `StartQueueRemoveTask()`.
 
-16. Use the following code inside StartQueueAppendTask(). We want to
+16. Use the following code inside `StartQueueAppendTask()`. We want to
     increment dataSend inside the infinite loop and append it to the
     queue
 
-    ```
+    ```C
     uint16_t dataSend = 0;
     const uint16_t MAX = 100;
     ```
@@ -102,34 +103,34 @@
 17. Once the count reaches a max of 100 we want to reset the data sent
     value to 0.
 
-18. Use the following code inside StartQueueRemoveTask():
+18. Use the following code inside `StartQueueRemoveTask()`:
 
-    ```
+    ```C
     uint16_t dataReceived = 0;
     char new_char[5];
     ```
 
-19. In StartQueueRemoveTask(), you want to remove the data from the
+19. In `StartQueueRemoveTask()`, you want to remove the data from the
     queue and transmit the data you get to your COM port so PuTTY can
-    view it. Use the HAL_UART_Transmit() function to transmit the
+    view it. `Use the HAL_UART_Transmit()` function to transmit the
     message!
 
-    1.  Hint: You’ll need to use the following code to convert the data
+    - Hint: You’ll need to use the following code to convert the data
         to the correct type to transmit via UART!
 
-        ```
+        ```C
         snprintf(new_char,"%d\r\n",dataReceived);
         ```
 
-20. At the end of the FreeRTOS tasks, StartQueueAppendTask() and
-    StartQueueRemoveTask() you’ll need to use osDelay() to guarantee the
+20. At the end of the FreeRTOS tasks, `StartQueueAppendTask()` and
+    `StartQueueRemoveTask()` you’ll need to use `osDelay()` to guarantee the
     function has enough time to fully execute its processing
 
-    1.  Pass the function the following code as its parameter converting
+    - Pass the function the following code as its parameter converting
         the number you enter in milliseconds to the equivalent number of
         ticks:
 
-        ```
+        ```C
         pdMS_TO_TICKS(100)
         ```
 
