@@ -116,7 +116,7 @@ Click **Fork** at the top right of the repository, and click "create new fork".
 ![3](./Media/cloning-fork.png)
 
 ```bash
-git clone https://github.com/<your-username>/software-tutorials.git
+git clone git@github.com:<your-name>/software-tutorials.git
 cd software-tutorials
 ```
 
