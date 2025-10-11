@@ -45,6 +45,7 @@ Below is the file structure of this repository, with some quick links to importa
 
 </div>
 
+<!-- easter egg moment  -->
 <!-- ```mermaid
 mindmap
   root((software-tutorials))
@@ -100,9 +101,44 @@ software-tutorials/
 
 </div>
 
+1. Fork the tutorial repository
+Click **Fork** at the top right of the repository, and click "create new fork".
+<br><br>
+![1](./Media/forkstep1.png)
+
+2. Create the new fork on your GitHub account (add a description if you want!), click "create fork"
+<br><br>
+![2](./Media/forkstep2.png)
+
+3. Clone your fork from your github profile:
+- I recommend making a UMSAE folder on your computer's C or D drive and cloning the repository there!
+<br><br>
+![3](./Media/cloning-fork.png)
+
+```bash
+git clone https://github.com/<your-username>/software-tutorials.git
+cd software-tutorials
+```
+
+4. Use a branch name matching the tutorial name:
+
+```bash
+git checkout -b tutorial-01
+```
+
+5. Push your branch to GitHub:
+
+```bash
+git push -u origin tutorial-01
+```
+
+**NOTE:** For each tutorial you do, **please make a new branch on your fork!** This will give you lots of practice with git!
+
+6. We'll come back to this in the [Submitting your work!](#submitting-your-work) section!
+
 <div id="Downloading CubeMx and CubeIDE">
 
-### Downloading CubeMx and CubeIDE:
+### Downloading CubeMx and CubeIDE: 
 
 </div>
 
@@ -178,6 +214,33 @@ You can find the tutorials in the `tutorials` folder, but here are links to the 
 
 </div>
 
-After you submit each tutorial please refer back to these instructions
+**NOTE:** After you finish each tutorial please refer back to these instructions and please follow them carefully!
+- Help yourself by referencing the [Learning Git](./learning-git/README.md) section!
 
-- ADD THIS AND TEST INSTRUCTIONS YOURSELF
+1. Take your working STM32 project folder (for the specific tutorial) and drag it into the empty folder with the same tutorial name, here's an example of what it should look like:
+<br><br>
+![1](./Media/submitting-work1.png)
+
+2. Stage and Commit your work!
+
+```bash
+git add .
+git commit -m "Added tutorial 01 blinky LED project"
+```
+
+3. Open a Pull Request (PR)
+
+- Go to your fork on GitHub, and click `Compare & pull request`. Here are some example settings for your PR that you should follow:
+```
+Base repo: UMSAE-Formula-Electric/software-tutorials
+Base branch: main
+Head repo: <your-username>/software-tutorials
+Head branch: tutorial-01
+Title: tutorial-01: blinky LED — <Your Name>
+```
+
+- Submit the PR and wait for review! ❤️
+
+4. Wait for a Review!
+
+- We will review and comment on your work! Once complete, we will close your PR without merging, so future members can attempt the tutorial independently.
