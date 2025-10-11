@@ -4,12 +4,6 @@
 
 </div>
 
-<div class="center">
-
-<!-- ![image](./Media/UMSAE_ePBR_Icon-BLUE_GRADIENT_V5.2_White_Background.png) -->
-
-</div>
-
 
 <div id="Introduction Label">
 
@@ -45,11 +39,11 @@ Below is the file structure of this repository, with some quick links to importa
 
 <div id="Repository Structure">
 
-## Repository Structure
+## Repository Structure 📁
 
 </div>
 
-```mermaid
+<!-- ```mermaid
 mindmap
   root((software-tutorials))
     .git
@@ -76,6 +70,25 @@ mindmap
         README.md
     .gitignore
     README.md
+``` -->
+
+```
+software-tutorials/
+├─ .github/
+├─ install-guide/
+│  └─ macbook-install-guide.pdf
+├─ learning-c/
+│  └─ README.md
+│  └─ C_programming_summary.pdf
+│  └─ The.C.Programming.Language.2nd.Edition.pdf
+├─ learning-git/
+│  └─ README.md
+├─ media/
+│  └─ bunch of pictures ...
+├─ team-info/
+│  └─ README.md
+├─ .gitignore
+└─ README.md
 ```
 
 
@@ -92,7 +105,7 @@ mindmap
 </div>
 
 STM32CubeMX is a way to start some of your projects. You need to
-download **6.11.1**, which you can find on the STM32CubeMX page:
+download version **6.11.1**, which you can find on the STM32CubeMX page:
 <https://www.st.com/en/development-tools/stm32cubemx.html> and create a
 free account to download!
 
@@ -113,11 +126,11 @@ version **1.15.1**, go to the STM32CubeIDE page:
 
 </div>
 
-The STM32-F446RE is the development board we use to flash on all the
+The STM32-F446RE is the development board we use to flash programs to all the
 PCBs on the car (ACU, VCU, and SCU). Unlike normal programming that can
-be compiled and ran on any hardware, embedded systems software is
+be compiled and ran on your machine, embedded systems software is
 usually written for a specific chip. Here we are using an ARM Cortex M4
-bases chip, and we need to buy the corresponding dev board to develop
+base chip, and we need to buy the corresponding dev board to develop
 for it. It costs about $30, so the SSO will get a list of new members
 and make a mass order of boards.
 

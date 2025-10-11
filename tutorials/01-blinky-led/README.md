@@ -1,6 +1,9 @@
+## Tutorial 01 - Blinky LED
+
 1. Open CubeMx
 
-2. Click on file → New project  
+2. Click on file → New project
+<br><br>
 ![1](../../Media/blinkLED%201.png)
 
 - This will take you to all the different types of STM MCUs and boards
@@ -8,21 +11,19 @@
     embedded software and program the microcontrollers (VETx) on our
     custom PCBs (ACU, SCU, and VCU).
 
-3. Type "F446RE" in the "commercial part number" section  
+3. Type "F446RE" in the "commercial part number" section
+<br><br>
 ![2](../../Media/blinkLED%202.png)
 
 4. Click the STM NUCLEO-F446RE board when it pops up, then click the blue
-"Start Project" button  
+"Start Project" button
+<br><br>
 ![4](../../Media/blinkLED%204.png)
 
 5. You will then get prompted to "Initialize all peripherals with their
 default mode"
-
-<div class="center">
-
+<br><br>
 ![5](../../Media/blinkLED%205.png)
-
-</div>
 
 6. Click yes, then CubeMX will take you to the microcontroller "Pinout &
 Configuration" section!
@@ -35,7 +36,8 @@ Configuration" section!
 
 - We will leave all of the settings as default for this tutorial
 
-7. Now we can move to the blue "Project Manager" tab  
+7. Now we can move to the blue "Project Manager" tab
+<br><br>
 ![6](../../Media/blinkLED%206.png)
 
 8. Under the Project name section type HAL_LEDBlink
@@ -68,21 +70,13 @@ board level definitions in the .h file instead.
 
 - Once CubeIDE opens you should see your project appear on the
     left-hand side of the screen under "Project Explorer"
-
-<div class="center">
-
+<br><br>
 ![7](../../Media/blinkLED%207.png)
-
-</div>
 
 14. Click on the project then the only folders we need to look at for these
 tutorials are the "Inc" (Include) and "Src" (Source) files
-
-<div class="center">
-
+<br><br>
 ![8](../../Media/blinkLED%208.png)
-
-</div>
 
 15. Next, open both the "main.c" and "main.h" files in the Src and Inc
 folders respectively
@@ -101,8 +95,9 @@ defines"
     of the microcontroller. The defines that CubeMX generated for us
     gave the port and pin values custom labels so it’s easier for us to
     read. You’ll need to use LD2_GPIO_Port and LD2_GPIO_Pin to turn the
-    LED on and off.  
-    ![9](../../Media/blinkLED%209.png)
+    LED on and off.
+<br><br>
+![9](../../Media/blinkLED%209.png)
 
 17. Now open "main.c", and scroll down the the "main" function, this is
 where we write the code to toggle the LED on and off
@@ -126,7 +121,8 @@ want the LED to be on and off for.
 borrow one for this tutorial)
 
 21. Next click the drop down arrow beside the green play button at the top
-of the screen then select "Run as" → "STM32 C/C++ Application"  
+of the screen then select "Run as" → "STM32 C/C++ Application"
+<br><br>
 ![10](../../Media/blinkLED%2010.png)
 
 22. When prompted hit "ok". This is just to set up the run profile for the
@@ -136,4 +132,3 @@ project
 
 - Try changing the delay value, this will change how fast the LED
     flashes on the board!!
-
