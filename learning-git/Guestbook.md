@@ -36,3 +36,6 @@ Welcome to the Guestbook! Add your name below and open a pull request.
 8. Jasper Pabalan
 	1. Major: Computer Engineering
 	2. Favourite Language: Python
+9. Ramba Kubari
+    1. Major: Mechanical Engineering
+    2. Favourite Language: Java & Python
