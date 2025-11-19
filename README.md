@@ -226,6 +226,7 @@ You can find the tutorials in the `tutorials` folder, but here are links to the 
 ```bash
 git add .
 git commit -m "Added tutorial 01 blinky LED project"
+git push
 ```
 
 3. Open a Pull Request (PR)
