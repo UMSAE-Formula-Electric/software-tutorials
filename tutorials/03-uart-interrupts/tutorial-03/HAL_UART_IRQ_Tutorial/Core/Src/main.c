@@ -44,11 +44,11 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
- uint8_t msg[] = "Welcome to Software!!!\r\n"; // msg
-  uint16_t msg_size = sizeof(msg); // Length of the msg
+ uint8_t msg[] = "Welcome to Software!!!\r\n"; 
+  uint16_t msg_size = sizeof(msg); 
 
-  uint8_t recvd_data; // Receive buffer
-  uint16_t recvd_data_size = 1; // Size of the character 't'
+  uint8_t recvd_data; 
+  uint16_t recvd_data_size = 1; 
 
 /* USER CODE END PV */
 
@@ -95,12 +95,7 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-
   HAL_UART_Receive_IT(&huart2,&recvd_data,recvd_data_size);
-
-
-
-
 
   /* USER CODE END 2 */
 
