@@ -160,18 +160,13 @@ void SystemClock_Config(void)
 /* USER CODE BEGIN 4 */
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
-   if (huart->Instance == USART2)
-   {
-      HAL_UART_Transmit(&huart2, &recvd_data, recvd_data_size, 10);
-
-      if (recvd_data == 't')
+   if (recvd_data == 't')
       {
           HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
-          HAL_UART_Transmit(&huart2, msg, msg_size, 1000);
+          HAL_UART_Transmit(huart, msg, msg_size, 10);
       }
 
-      HAL_UART_Receive_IT(&huart2, &recvd_data, recvd_data_size);
-  }
+      HAL_UART_Receive_IT(huart, &recvd_data, recvd_data_size);
 }
 
 /* USER CODE END 4 */
